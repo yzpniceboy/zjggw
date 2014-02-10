@@ -14,8 +14,6 @@
 		07D9B07618A8545E0055C89F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9B07518A8545E0055C89F /* main.m */; };
 		07D9B07A18A8545E0055C89F /* GGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9B07918A8545E0055C89F /* GGAppDelegate.m */; };
 		07D9B07D18A8545E0055C89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D9B07B18A8545E0055C89F /* Main.storyboard */; };
-		07D9B08018A8545E0055C89F /* GGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9B07F18A8545E0055C89F /* GGFirstViewController.m */; };
-		07D9B08318A8545E0055C89F /* GGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9B08218A8545E0055C89F /* GGSecondViewController.m */; };
 		07D9B08518A8545E0055C89F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D9B08418A8545E0055C89F /* Images.xcassets */; };
 		07D9B08C18A8545E0055C89F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B08B18A8545E0055C89F /* XCTest.framework */; };
 		07D9B08D18A8545E0055C89F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B06918A8545E0055C89F /* Foundation.framework */; };
@@ -46,10 +44,6 @@
 		07D9B07818A8545E0055C89F /* GGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAppDelegate.h; sourceTree = "<group>"; };
 		07D9B07918A8545E0055C89F /* GGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAppDelegate.m; sourceTree = "<group>"; };
 		07D9B07C18A8545E0055C89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07D9B07E18A8545E0055C89F /* GGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGFirstViewController.h; sourceTree = "<group>"; };
-		07D9B07F18A8545E0055C89F /* GGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGFirstViewController.m; sourceTree = "<group>"; };
-		07D9B08118A8545E0055C89F /* GGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGSecondViewController.h; sourceTree = "<group>"; };
-		07D9B08218A8545E0055C89F /* GGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGSecondViewController.m; sourceTree = "<group>"; };
 		07D9B08418A8545E0055C89F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		07D9B08A18A8545E0055C89F /* zjggwTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zjggwTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D9B08B18A8545E0055C89F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +112,6 @@
 				07D9B07818A8545E0055C89F /* GGAppDelegate.h */,
 				07D9B07918A8545E0055C89F /* GGAppDelegate.m */,
 				07D9B07B18A8545E0055C89F /* Main.storyboard */,
-				07D9B07E18A8545E0055C89F /* GGFirstViewController.h */,
-				07D9B07F18A8545E0055C89F /* GGFirstViewController.m */,
-				07D9B08118A8545E0055C89F /* GGSecondViewController.h */,
-				07D9B08218A8545E0055C89F /* GGSecondViewController.m */,
 				07D9B08418A8545E0055C89F /* Images.xcassets */,
 				07D9B07018A8545E0055C89F /* Supporting Files */,
 			);
@@ -255,10 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D9B08318A8545E0055C89F /* GGSecondViewController.m in Sources */,
 				07D9B07A18A8545E0055C89F /* GGAppDelegate.m in Sources */,
 				07D9B07618A8545E0055C89F /* main.m in Sources */,
-				07D9B08018A8545E0055C89F /* GGFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +455,7 @@
 				07D9B09D18A8545E0055C89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07D9B09E18A8545E0055C89F /* Build configuration list for PBXNativeTarget "zjggwTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +464,7 @@
 				07D9B0A018A8545E0055C89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
