@@ -76,6 +76,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		072D332018A85EC100E19A99 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				072D332118A85F3B00E19A99 /* mainviewcontrollers */,
+			);
+			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		072D332118A85F3B00E19A99 /* mainviewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = mainviewcontrollers;
+			sourceTree = "<group>";
+		};
 		07D9B05D18A8545E0055C89F = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +124,7 @@
 		07D9B06F18A8545E0055C89F /* zjggw */ = {
 			isa = PBXGroup;
 			children = (
+				072D332018A85EC100E19A99 /* viewcontrollers */,
 				07D9B07818A8545E0055C89F /* GGAppDelegate.h */,
 				07D9B07918A8545E0055C89F /* GGAppDelegate.m */,
 				07D9B07B18A8545E0055C89F /* Main.storyboard */,
