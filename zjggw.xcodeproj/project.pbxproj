@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072D338718A8B7EC00E19A99 /* GGTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 072D338618A8B7EC00E19A99 /* GGTabBarButton.m */; };
+		072D338A18A8B97800E19A99 /* GGMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072D338918A8B97800E19A99 /* GGMainTabBarController.m */; };
+		076AB5BD18A9C2450019B13B /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 076AB5B518A9C2450019B13B /* MJRefresh.bundle */; };
+		076AB5BE18A9C2450019B13B /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5B818A9C2450019B13B /* MJRefreshBaseView.m */; };
+		076AB5BF18A9C2450019B13B /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5BA18A9C2450019B13B /* MJRefreshFooterView.m */; };
+		076AB5C018A9C2450019B13B /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5BC18A9C2450019B13B /* MJRefreshHeaderView.m */; };
+		076AB5C318A9C60C0019B13B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5C218A9C60C0019B13B /* MainViewController.m */; };
+		076AB5C618A9C6200019B13B /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5C518A9C6200019B13B /* CategoryViewController.m */; };
+		076AB5C918A9C6370019B13B /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5C818A9C6370019B13B /* CartViewController.m */; };
+		076AB5CC18A9C6490019B13B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5CB18A9C6490019B13B /* ChatViewController.m */; };
+		076AB5CF18A9C65D0019B13B /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5CE18A9C65D0019B13B /* PersonViewController.m */; };
 		07D9B06A18A8545E0055C89F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B06918A8545E0055C89F /* Foundation.framework */; };
 		07D9B06C18A8545E0055C89F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B06B18A8545E0055C89F /* CoreGraphics.framework */; };
 		07D9B06E18A8545E0055C89F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B06D18A8545E0055C89F /* UIKit.framework */; };
@@ -33,6 +44,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072D338518A8B7EC00E19A99 /* GGTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarButton.h; sourceTree = "<group>"; };
+		072D338618A8B7EC00E19A99 /* GGTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarButton.m; sourceTree = "<group>"; };
+		072D338818A8B97800E19A99 /* GGMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGMainTabBarController.h; sourceTree = "<group>"; };
+		072D338918A8B97800E19A99 /* GGMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGMainTabBarController.m; sourceTree = "<group>"; };
+		076AB5B518A9C2450019B13B /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		076AB5B618A9C2450019B13B /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		076AB5B718A9C2450019B13B /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshBaseView.h; path = MJRefresh/MJRefreshBaseView.h; sourceTree = "<group>"; };
+		076AB5B818A9C2450019B13B /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBaseView.m; path = MJRefresh/MJRefreshBaseView.m; sourceTree = "<group>"; };
+		076AB5B918A9C2450019B13B /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooterView.h; path = MJRefresh/MJRefreshFooterView.h; sourceTree = "<group>"; };
+		076AB5BA18A9C2450019B13B /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooterView.m; path = MJRefresh/MJRefreshFooterView.m; sourceTree = "<group>"; };
+		076AB5BB18A9C2450019B13B /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeaderView.h; path = MJRefresh/MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		076AB5BC18A9C2450019B13B /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeaderView.m; path = MJRefresh/MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		076AB5C118A9C60C0019B13B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		076AB5C218A9C60C0019B13B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		076AB5C418A9C6200019B13B /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		076AB5C518A9C6200019B13B /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		076AB5C718A9C6370019B13B /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		076AB5C818A9C6370019B13B /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		076AB5CA18A9C6490019B13B /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		076AB5CB18A9C6490019B13B /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		076AB5CD18A9C65D0019B13B /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		076AB5CE18A9C65D0019B13B /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		07D9B06618A8545E0055C89F /* zjggw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zjggw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D9B06918A8545E0055C89F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07D9B06B18A8545E0055C89F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,8 +112,52 @@
 		072D332018A85EC100E19A99 /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				076AB5C118A9C60C0019B13B /* MainViewController.h */,
+				076AB5C218A9C60C0019B13B /* MainViewController.m */,
+				076AB5C418A9C6200019B13B /* CategoryViewController.h */,
+				076AB5C518A9C6200019B13B /* CategoryViewController.m */,
+				076AB5C718A9C6370019B13B /* CartViewController.h */,
+				076AB5C818A9C6370019B13B /* CartViewController.m */,
+				076AB5CA18A9C6490019B13B /* ChatViewController.h */,
+				076AB5CB18A9C6490019B13B /* ChatViewController.m */,
+				076AB5CD18A9C65D0019B13B /* PersonViewController.h */,
+				076AB5CE18A9C65D0019B13B /* PersonViewController.m */,
 			);
 			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		072D338318A8B72100E19A99 /* selfviews */ = {
+			isa = PBXGroup;
+			children = (
+				072D338418A8B73100E19A99 /* tabbarController */,
+			);
+			name = selfviews;
+			sourceTree = "<group>";
+		};
+		072D338418A8B73100E19A99 /* tabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				072D338518A8B7EC00E19A99 /* GGTabBarButton.h */,
+				072D338618A8B7EC00E19A99 /* GGTabBarButton.m */,
+				072D338818A8B97800E19A99 /* GGMainTabBarController.h */,
+				072D338918A8B97800E19A99 /* GGMainTabBarController.m */,
+			);
+			name = tabbarController;
+			sourceTree = "<group>";
+		};
+		076AB5B418A9C21E0019B13B /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				076AB5B518A9C2450019B13B /* MJRefresh.bundle */,
+				076AB5B618A9C2450019B13B /* MJRefresh.h */,
+				076AB5B718A9C2450019B13B /* MJRefreshBaseView.h */,
+				076AB5B818A9C2450019B13B /* MJRefreshBaseView.m */,
+				076AB5B918A9C2450019B13B /* MJRefreshFooterView.h */,
+				076AB5BA18A9C2450019B13B /* MJRefreshFooterView.m */,
+				076AB5BB18A9C2450019B13B /* MJRefreshHeaderView.h */,
+				076AB5BC18A9C2450019B13B /* MJRefreshHeaderView.m */,
+			);
+			name = MJRefresh;
 			sourceTree = "<group>";
 		};
 		07D9B05D18A8545E0055C89F = {
@@ -116,6 +193,8 @@
 		07D9B06F18A8545E0055C89F /* zjggw */ = {
 			isa = PBXGroup;
 			children = (
+				076AB5B418A9C21E0019B13B /* MJRefresh */,
+				072D338318A8B72100E19A99 /* selfviews */,
 				072D332018A85EC100E19A99 /* viewcontrollers */,
 				07D9B07818A8545E0055C89F /* GGAppDelegate.h */,
 				07D9B07918A8545E0055C89F /* GGAppDelegate.m */,
@@ -234,6 +313,7 @@
 			files = (
 				07D9B08518A8545E0055C89F /* Images.xcassets in Resources */,
 				07D9B07418A8545E0055C89F /* InfoPlist.strings in Resources */,
+				076AB5BD18A9C2450019B13B /* MJRefresh.bundle in Resources */,
 				07D9B07D18A8545E0055C89F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076AB5BF18A9C2450019B13B /* MJRefreshFooterView.m in Sources */,
+				072D338A18A8B97800E19A99 /* GGMainTabBarController.m in Sources */,
+				076AB5CC18A9C6490019B13B /* ChatViewController.m in Sources */,
+				072D338718A8B7EC00E19A99 /* GGTabBarButton.m in Sources */,
+				076AB5C618A9C6200019B13B /* CategoryViewController.m in Sources */,
+				076AB5C918A9C6370019B13B /* CartViewController.m in Sources */,
+				076AB5C018A9C2450019B13B /* MJRefreshHeaderView.m in Sources */,
+				076AB5C318A9C60C0019B13B /* MainViewController.m in Sources */,
 				07D9B07A18A8545E0055C89F /* GGAppDelegate.m in Sources */,
+				076AB5BE18A9C2450019B13B /* MJRefreshBaseView.m in Sources */,
 				07D9B07618A8545E0055C89F /* main.m in Sources */,
+				076AB5CF18A9C65D0019B13B /* PersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
