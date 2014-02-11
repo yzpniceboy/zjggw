@@ -18,7 +18,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        
     }
     return self;
 }
@@ -27,13 +27,12 @@
 {
     [super viewDidLoad];
     self.tabBarController.hidesBottomBarWhenPushed=YES;
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [_mainTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    UIBarButtonItem *searchItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:nil];
+    
+    self.navigationItem.rightBarButtonItem = searchItem;
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -41,6 +40,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+/*
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -66,7 +67,7 @@
     
     return cell;
 }
-
+*/
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -106,7 +107,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -116,6 +117,6 @@
     // Pass the selected object to the new view controller.
 }
 
- */
+
 
 @end
