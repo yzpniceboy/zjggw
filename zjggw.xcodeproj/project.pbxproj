@@ -18,6 +18,8 @@
 		076AB5C918A9C6370019B13B /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5C818A9C6370019B13B /* CartViewController.m */; };
 		076AB5CC18A9C6490019B13B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5CB18A9C6490019B13B /* ChatViewController.m */; };
 		076AB5CF18A9C65D0019B13B /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5CE18A9C65D0019B13B /* PersonViewController.m */; };
+		076AB5DD18AA051E0019B13B /* GGBaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5DC18AA051E0019B13B /* GGBaseTableCell.m */; };
+		076AB5E018AA0BB60019B13B /* GGTopPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 076AB5DF18AA0BB60019B13B /* GGTopPicture.m */; };
 		07D9B06A18A8545E0055C89F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B06918A8545E0055C89F /* Foundation.framework */; };
 		07D9B06C18A8545E0055C89F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B06B18A8545E0055C89F /* CoreGraphics.framework */; };
 		07D9B06E18A8545E0055C89F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9B06D18A8545E0055C89F /* UIKit.framework */; };
@@ -66,6 +68,10 @@
 		076AB5CB18A9C6490019B13B /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		076AB5CD18A9C65D0019B13B /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
 		076AB5CE18A9C65D0019B13B /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		076AB5DB18AA051E0019B13B /* GGBaseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBaseTableCell.h; sourceTree = "<group>"; };
+		076AB5DC18AA051E0019B13B /* GGBaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBaseTableCell.m; sourceTree = "<group>"; };
+		076AB5DE18AA0BB60019B13B /* GGTopPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTopPicture.h; sourceTree = "<group>"; };
+		076AB5DF18AA0BB60019B13B /* GGTopPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTopPicture.m; sourceTree = "<group>"; };
 		07D9B06618A8545E0055C89F /* zjggw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zjggw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D9B06918A8545E0055C89F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07D9B06B18A8545E0055C89F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,12 +135,13 @@
 		072D338318A8B72100E19A99 /* selfviews */ = {
 			isa = PBXGroup;
 			children = (
-				072D338418A8B73100E19A99 /* tabbarController */,
+				076AB5D018A9E47B0019B13B /* mainviews */,
+				072D338418A8B73100E19A99 /* tabbarviews */,
 			);
 			name = selfviews;
 			sourceTree = "<group>";
 		};
-		072D338418A8B73100E19A99 /* tabbarController */ = {
+		072D338418A8B73100E19A99 /* tabbarviews */ = {
 			isa = PBXGroup;
 			children = (
 				072D338518A8B7EC00E19A99 /* GGTabBarButton.h */,
@@ -142,7 +149,7 @@
 				072D338818A8B97800E19A99 /* GGMainTabBarController.h */,
 				072D338918A8B97800E19A99 /* GGMainTabBarController.m */,
 			);
-			name = tabbarController;
+			name = tabbarviews;
 			sourceTree = "<group>";
 		};
 		076AB5B418A9C21E0019B13B /* MJRefresh */ = {
@@ -158,6 +165,24 @@
 				076AB5BC18A9C2450019B13B /* MJRefreshHeaderView.m */,
 			);
 			name = MJRefresh;
+			sourceTree = "<group>";
+		};
+		076AB5D018A9E47B0019B13B /* mainviews */ = {
+			isa = PBXGroup;
+			children = (
+				076AB5DB18AA051E0019B13B /* GGBaseTableCell.h */,
+				076AB5DC18AA051E0019B13B /* GGBaseTableCell.m */,
+				076AB5DE18AA0BB60019B13B /* GGTopPicture.h */,
+				076AB5DF18AA0BB60019B13B /* GGTopPicture.m */,
+			);
+			name = mainviews;
+			sourceTree = "<group>";
+		};
+		076AB5D118A9FF3B0019B13B /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = protocols;
 			sourceTree = "<group>";
 		};
 		07D9B05D18A8545E0055C89F = {
@@ -193,6 +218,7 @@
 		07D9B06F18A8545E0055C89F /* zjggw */ = {
 			isa = PBXGroup;
 			children = (
+				076AB5D118A9FF3B0019B13B /* protocols */,
 				076AB5B418A9C21E0019B13B /* MJRefresh */,
 				072D338318A8B72100E19A99 /* selfviews */,
 				072D332018A85EC100E19A99 /* viewcontrollers */,
@@ -342,6 +368,8 @@
 				076AB5C018A9C2450019B13B /* MJRefreshHeaderView.m in Sources */,
 				076AB5C318A9C60C0019B13B /* MainViewController.m in Sources */,
 				07D9B07A18A8545E0055C89F /* GGAppDelegate.m in Sources */,
+				076AB5DD18AA051E0019B13B /* GGBaseTableCell.m in Sources */,
+				076AB5E018AA0BB60019B13B /* GGTopPicture.m in Sources */,
 				076AB5BE18A9C2450019B13B /* MJRefreshBaseView.m in Sources */,
 				07D9B07618A8545E0055C89F /* main.m in Sources */,
 				076AB5CF18A9C65D0019B13B /* PersonViewController.m in Sources */,
