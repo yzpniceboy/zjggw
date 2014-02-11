@@ -51,7 +51,7 @@
     [barBtn setImage:[UIImage imageNamed:normal] forState:UIControlStateNormal];
     [barBtn setImage:[UIImage imageNamed:selected] forState:UIControlStateDisabled];
     [barBtn setTitle:title forState:UIControlStateNormal];
-//    barBtn.titleLabel.text=title;
+
     [barBtn setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     [barBtn setTitleColor:[UIColor purpleColor] forState:UIControlStateDisabled];
     
@@ -62,7 +62,6 @@
     barBtn.imageView.contentMode=UIViewContentModeCenter;//图片居中
     barBtn.titleLabel.textAlignment=NSTextAlignmentCenter;//标题居中
     barBtn.font=[UIFont systemFontOfSize:12];//字体大小
-//    barBtn.titleLabel.textColor=[UIColor grayColor];
     
     [_tabBarView addSubview:barBtn];
 }
