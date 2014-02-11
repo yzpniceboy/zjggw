@@ -15,7 +15,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [[UINavigationBar appearance] setBarTintColor:[UIColor purpleColor]];
+    //导航栏背景颜色
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xFFC125)];
+    //导航栏图标主题颜色
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    //导航栏标字体题样式和颜色
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8];
+    shadow.shadowOffset = CGSizeMake(0, 1);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont fontWithName:@"Arial-BoldItalicMT" size:24.0], NSFontAttributeName, nil]];
+    //设置全局返回按钮
+    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"back_btn.png"]];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"back_btn.png"]];
     return YES;
 }
 							
