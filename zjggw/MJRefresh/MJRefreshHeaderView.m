@@ -8,7 +8,7 @@
 
 #define kPullToRefresh @"上拉可以刷新"
 #define kReleaseToRefresh @"松开立即刷新"
-#define kRefreshing @"MJ哥正在帮你刷新..."
+#define kRefreshing @"正在刷新..."
 
 #define kTimeKey @"MJRefreshHeaderView"
 
